@@ -1,0 +1,183 @@
+---
+title: "Where to find helper functions"
+description: >
+  Learn where each helper function is written in the fiafunctions package. 
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Where to find helper functions}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+When fiafunctions version 2 launched, there were 35 helper functions. Some are called in charting functions, while others are called by the user. Here are the helper functions, alphabetized, and their corresponding R scripts:
+
+## A
+
+`addSeriesBand()` :
+
+-   helper_labels.R
+
+## B
+
+`barChartLabels()` :
+
+-   helper_labels.R
+
+## C
+
+`chartLabels()` :
+
+-   helper_labels.R
+
+`chartLocation()` :
+
+-   helper_pdf.R
+
+`custom_preset()` :
+
+-   helper_axis.R
+
+## D
+
+`defineXAxisBar()` :
+
+-   helper_axis.R
+
+`defineXAxisDate()` :
+
+-   helper_axis.R
+
+`defineXAxisNumeric()` :
+
+-   helper_axis.R
+
+`drawXAxis()` :
+
+-   helper_axis.R
+
+`drawYAxis()` :
+
+-   helper_axis.R
+
+`dynamicYAxisParameters()` :
+
+-   aaaHelperFunctions.R
+
+## E
+
+`eventLine()`
+
+-   aaaHelperFunctions.R
+
+`eventLineDate()`
+
+-   aaaHelperFunctions.R
+
+`exhibitTemplate()`
+
+-   helper_pdf.R
+
+## F
+
+`flourish()`
+
+-   helper_labels.R
+
+`footnote()`
+
+-   aaaHelperFunctions.R
+
+## G
+
+`getCopy()`
+
+-   helper_labels.R
+
+`getDynamicDates()`
+
+-   helper_axis.R
+
+`getSecurityLabel()`
+
+-   helper_pdf.R
+
+`getUpperLeft()`
+
+-   helper_pdf.R
+
+## L
+
+`legend2()`
+
+-   helper_labels.R
+
+`lineFormatting()`
+
+-   helper_labels.R
+
+## M
+
+`month_abbrevs()`
+
+-   aaaHelperFunctions.R
+
+## N
+
+`nber.shade()`
+
+-   aaaHelperFunctions.R
+
+`newPage()`
+
+-   helper_pdf.R
+
+## P
+
+`pageLabels()`
+
+-   helper_pdf.R
+
+`pickColors()`
+
+-   helper_colors.R
+
+`place()`
+
+-   aaaHelperFunctions.R
+
+`placeX()`
+
+-   helper_axis.R
+
+`placeY()`
+
+-   helper_axis.R
+
+`plotHookBox()`
+
+-   aaaHelperFunctions.R
+
+## S
+
+`set.opt()`
+
+-   zzz.R
+
+`set.presets()`
+
+-   zzz.R
+
+`set_chart_parameters()`
+
+-   aaaHelperFunctions.R
+
+`setYLims()`
+
+-   helper_labels.R

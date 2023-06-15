@@ -1,0 +1,36 @@
+Package: fiafunctions
+Type: Package
+Title: Charting Functions for FIA 
+Version: 2.0
+Author: Karl Patram, Benjamin Iorio, Lia Chabot 
+Maintainer: FIA RAs
+Description: This library was created from a set of charting functions for FIA. It allows you to source templates commonly used for section productions. Originally created by Jessica Goldenring, Zack Saravay, Jacob Bochner, and of course Stephen Zoulalian.
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.1
+Imports:
+    dplyr,
+    graphics,
+    grDevices,
+    lubridate,
+    utils,
+    zoo
+Collate: 
+    'aaaHelperFunctions.R'
+    'helper_axis.R'
+    'helper_colors.R'
+    'helper_labels.R'
+    'helper_pdf.R'
+    'lineChart.R'
+    'polygonChart.R'
+    'scatterChart.R'
+    'barChart.R'
+    'datable.R'
+    'stackedBarChart.R'
+    'labeledBarChart.R'
+    'zzz.R'
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
